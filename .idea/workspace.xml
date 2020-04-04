@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="vins_estimator" targetName="MyVio" />
+      <config projectName="vins_estimator" targetName="testCurveFitting" />
+      <config projectName="vins_estimator" targetName="camera_model" />
+      <config projectName="vins_estimator" targetName="run_euroc" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="395c4906-69b3-483f-b4af-83fcbfd2e486" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/include/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/System.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/backend.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/backend.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/edge.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/edge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/edge_imu.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/edge_imu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/edge_prior.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/edge_prior.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/edge_reprojection.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/edge_reprojection.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/eigen_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/eigen_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/imu_integration.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/imu_integration.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/loss_function.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/loss_function.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/problem.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/problem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/vertex.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/vertex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/vertex_inverse_depth.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/vertex_inverse_depth.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/vertex_point_xyz.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/vertex_point_xyz.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/vertex_pose.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/vertex_pose.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/backend/vertex_speedbias.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/backend/vertex_speedbias.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/calib/CameraCalibration.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/calib/CameraCalibration.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/Camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/CameraFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/CameraFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/CataCamera.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/CataCamera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/CostFunctionFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/CostFunctionFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/EquidistantCamera.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/EquidistantCamera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/PinholeCamera.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/PinholeCamera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/camera_models/ScaramuzzaCamera.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/camera_models/ScaramuzzaCamera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/chessboard/Chessboard.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/chessboard/Chessboard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/chessboard/ChessboardCorner.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/chessboard/ChessboardCorner.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/chessboard/ChessboardQuad.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/chessboard/ChessboardQuad.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/chessboard/Spline.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/chessboard/Spline.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/gpl/EigenQuaternionParameterization.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/gpl/EigenQuaternionParameterization.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/gpl/EigenUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/gpl/EigenUtils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/gpl/gpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/gpl/gpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/camodocal/sparse_graph/Transform.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/camodocal/sparse_graph/Transform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/estimator.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/estimator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/factor/integration_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/factor/integration_base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/feature_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/feature_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/feature_tracker.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/feature_tracker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/initial/initial_alignment.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/initial/initial_alignment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/initial/initial_ex_rotation.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/initial/initial_ex_rotation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/initial/initial_sfm.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/initial/initial_sfm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/initial/solve_5pts.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/initial/solve_5pts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/parameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/parameters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/utility/tic_toc.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/utility/tic_toc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/utility/utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/utility/utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/System.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/edge.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/edge.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/edge_imu.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/edge_imu.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/edge_prior.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/edge_prior.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/edge_reprojection.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/edge_reprojection.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/imu_integration.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/imu_integration.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/loss_function.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/loss_function.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/problem.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/problem.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/vertex.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/vertex.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/vertex_pose.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/vertex_pose.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/calib/CameraCalibration.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/calib/CameraCalibration.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/Camera.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/Camera.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/CameraFactory.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/CameraFactory.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/CataCamera.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/CataCamera.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/CostFunctionFactory.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/CostFunctionFactory.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/EquidistantCamera.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/EquidistantCamera.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/PinholeCamera.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/PinholeCamera.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/camera_models/ScaramuzzaCamera.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/camera_models/ScaramuzzaCamera.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/chessboard/Chessboard.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/chessboard/Chessboard.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/gpl/EigenQuaternionParameterization.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/gpl/EigenQuaternionParameterization.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/gpl/gpl.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/gpl/gpl.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/intrinsic_calib.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/intrinsic_calib.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_models/sparse_graph/Transform.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_models/sparse_graph/Transform.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estimator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estimator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature_tracker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature_tracker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature_tracker_parameters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature_tracker_parameters.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initial/initial_aligment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/initial/initial_aligment.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initial/initial_ex_rotation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/initial/initial_ex_rotation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initial/initial_sfm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/initial/initial_sfm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initial/solve_5pts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/initial/solve_5pts.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parameters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/parameters.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/utility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/utility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CurveFitting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/CurveFitting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/run_euroc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/run_euroc.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-687221111">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="h" value="1" />
+          <entry key="vmoptions" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="84" />
+          <entry key="h" value="57" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="141" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/System.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/System.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#1213#1253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/clion64.vmoptions">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/System.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="292" />
+    <option name="y" value="52" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.run_euroc">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyVio" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="MyVio" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="camera_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="camera_model" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_euroc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="run_euroc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="vins_estimator" RUN_TARGET_NAME="run_euroc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCurveFitting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="testCurveFitting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="vins_estimator" RUN_TARGET_NAME="testCurveFitting">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.camera_model" />
+      <item itemvalue="Application.MyVio" />
+      <item itemvalue="Application.run_euroc" />
+      <item itemvalue="Application.testCurveFitting" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="395c4906-69b3-483f-b4af-83fcbfd2e486" name="Default Changelist" comment="" />
+      <created>1585974800555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585974800555</updated>
+      <workItem from="1585974806824" duration="14000" />
+      <workItem from="1585975018102" duration="1299000" />
+      <workItem from="1585976388724" duration="379000" />
+      <workItem from="1585976863946" duration="668000" />
+      <workItem from="1585981014418" duration="114000" />
+      <workItem from="1586003712400" duration="1844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4318000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19845219" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3002092" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/clion64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#1213#1253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

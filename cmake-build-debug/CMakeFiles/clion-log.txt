@@ -1,0 +1,18 @@
+/home/kilox/Downloads/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kilox/workspace/VINS-Course
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.2.92 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found Ceres version: 1.14.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Found OpenCV: /usr (found version "3.3.1") 
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   filesystem
+--   program_options
+--   system
+CMake Warning at CMakeLists.txt:17 (message):
+  OpenCV_VERSION: 3.3.1
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kilox/workspace/VINS-Course/cmake-build-debug

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vins_estimator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\;CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera_model">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/libcamera_model.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 camera_model"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera_model/fast">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/libcamera_model.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 camera_model/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_euroc">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/run_euroc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_euroc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_euroc/fast">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/run_euroc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_euroc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCurveFitting">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/testCurveFitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCurveFitting"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCurveFitting/fast">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/testCurveFitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCurveFitting/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyVio">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/libMyVio.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyVio"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyVio/fast">
+				<Option output="/home/kilox/workspace/VINS-Course/bin/libMyVio.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kilox/workspace/VINS-Course/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kilox/workspace/VINS-Course/include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyVio/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kilox/workspace/VINS-Course/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/System.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/edge.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/edge_imu.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/edge_prior.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/edge_reprojection.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/imu_integration.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/loss_function.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/problem.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/vertex.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/backend/vertex_pose.cc">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/calib/CameraCalibration.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/Camera.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/CameraFactory.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/CataCamera.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/CostFunctionFactory.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/EquidistantCamera.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/PinholeCamera.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/camera_models/ScaramuzzaCamera.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/chessboard/Chessboard.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/gpl/EigenQuaternionParameterization.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/gpl/gpl.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/camera_models/sparse_graph/Transform.cc">
+			<Option target="camera_model"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/estimator.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/feature_manager.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/feature_tracker.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/initial/initial_aligment.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/initial/initial_ex_rotation.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/initial/initial_sfm.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/initial/solve_5pts.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/parameters.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/src/utility/utility.cpp">
+			<Option target="MyVio"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/test/CurveFitting.cpp">
+			<Option target="testCurveFitting"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/test/run_euroc.cpp">
+			<Option target="run_euroc"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Ceres/CeresConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Ceres/CeresConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Ceres/CeresTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Ceres/CeresTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Ceres/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Ceres/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/kilox/workspace/VINS-Course/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

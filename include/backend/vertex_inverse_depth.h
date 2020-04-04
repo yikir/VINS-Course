@@ -10,14 +10,13 @@ namespace backend {
  * 以逆深度形式存储的顶点
  */
 class VertexInverseDepth : public Vertex {
-public:
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
+ public:
+  EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 
-    VertexInverseDepth() : Vertex(1) {}
+  VertexInverseDepth() : Vertex(1) {}
 
-    virtual std::string TypeInfo() const { return "VertexInverseDepth"; }
+  virtual std::string TypeInfo() const { return "VertexInverseDepth"; }
 };
-
 }
 }
 
